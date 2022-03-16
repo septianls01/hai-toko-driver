@@ -1,0 +1,200 @@
+.head {
+  padding-top: 20px;
+  display: flex;
+  margin: 4px;
+  margin-bottom: 14px;
+}
+.ArrowBack {
+  color: #d3455b;
+  font-size: 18px;
+}
+.text {
+  color: #293845;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.contentTitle {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 2px;
+}
+.uniqeSend {
+  background-color: #f7f9fa;
+}
+.titleSend {
+  font-size: 13px;
+  font-weight: 600;
+  color: #293845;
+}
+.titleNumber {
+  text-transform: capitalize;
+  font-size: 13px;
+  font-weight: 600;
+  color: #788896;
+}
+.informationSend {
+  margin-top: 28px;
+}
+.informationTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #293845;
+}
+.line {
+  border: 2px solid #dfe6ed;
+  border-radius: 1px;
+  margin: 10px 0 22px 0;
+}
+.contentInformations {
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+.partInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.info {
+  color: #788896;
+  font-size: 14px;
+  font-weight: 600;
+}
+.infoNoChanges {
+  color: #293845;
+  font-size: 14px;
+  font-weight: 800;
+}
+.btnInfo {
+  margin-right: 0;
+  width: 70px;
+  font-size: 12px;
+  background-color: #1aae9f;
+  border-radius: 16px;
+  color: #fff;
+  font-weight: 600;
+  padding: 2px 0;
+}
+.iconCopy {
+  color: #d3455b;
+  font-size: 18px;
+  margin-left: 6px;
+}
+
+.location {
+  margin: 40px 0px;
+}
+.market {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.iconStore {
+  font-size: 24px;
+  color: #4b5c6b;
+}
+.address {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 3px;
+  color: #293845;
+  width: 340px;
+}
+.destination {
+  display: flex;
+}
+.textLocation {
+  margin-left: 10px;
+}
+.iconLocationOn {
+  font-size: 24px;
+  color: #4b5c6b;
+}
+.Maps {
+  margin-top: 10px;
+  font-weight: 600;
+  color: #2c88d9;
+}
+.OrderTitle {
+  display: flex;
+  justify-content: space-between;
+}
+.titleLeft {
+  font-size: 18px;
+  font-weight: 600;
+  color: #293845;
+}
+.titleRight {
+  font-size: 14px;
+  margin-top: 2px;
+  font-weight: 500;
+  color: #788896;
+}
+.menuOrdered {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0px;
+}
+.subtextMenu {
+  color: #788896;
+  font-size: 14px;
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+.textMenu {
+  color: #293845;
+  font-size: 14px;
+  font-weight: 800;
+}
+.price {
+  color: #d3455b;
+  font-size: 17px;
+  font-weight: 800;
+}
+.shipping {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 6px;
+}
+.shippingLeft {
+  color: #788896;
+  font-size: 14px;
+  font-weight: 500;
+}
+.shippingRight {
+  color: #d3455b;
+  font-size: 17px;
+  font-weight: 800;
+}
+.totalPrice {
+  display: flex;
+  justify-content: space-between;
+}
+.priceLeft {
+  font-size: 18px;
+  font-weight: 800;
+  color: #293845;
+}
+.priceRight {
+  color: #d3455b;
+  font-size: 18px;
+  font-weight: 800;
+}
+.sectionOrder {
+  margin: 28px 0px;
+}
+.Done {
+  display: flex;
+  justify-content: center;
+  padding: 18px 0;
+}
+.buttonHarian {
+  background-color: #d3455b;
+  color: #fff;
+  border-radius: 6px;
+  padding-top: 8px;
+  padding-bottom: 18px;
+  width: 550px;
+  font-size: 20px;
+  font-weight: 500;
+}

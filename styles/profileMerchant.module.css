@@ -1,0 +1,158 @@
+.iconBack {
+  color: #d3455b;
+  font-size: 40px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  margin-left: -10px;
+}
+.headDriver {
+  display: flex;
+}
+/* .iconHead {
+  } */
+.accountSection {
+  display: flex;
+  margin-bottom: 20px;
+}
+.linkLeaderboard {
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+  align-items: center;
+  color: #6558f5;
+}
+.linkMerchant {
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+  align-items: center;
+  color: #207868;
+}
+.imgLogo {
+  border-radius: 50%;
+  border: 2px;
+  border-color: #f5f5f5;
+  margin-bottom: 16px;
+}
+.nameProfile {
+  color: #d3455b;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.changePhoto {
+  color: #6558f5;
+  font-size: 14px;
+  margin-bottom: 8px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.boxPoint {
+  border: 2px solid;
+  border-color: #c3cfd9;
+}
+.contentPoint {
+  padding: 10px 8px;
+  display: flex;
+}
+.Point {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6px;
+}
+.numberPoint {
+  color: #d3455b;
+  font-size: 18px;
+  font-weight: 600;
+}
+.leaderBoard {
+  color: #d3455b;
+  font-size: 14px;
+  font-weight: 500;
+}
+.twoPart {
+  display: flex;
+
+  /*justify-content: flex-start; */
+}
+.onePart {
+  margin-bottom: 14px;
+}
+
+.headDriver {
+  border-bottom: 2px solid;
+  border-color: #dfe6ed;
+  padding-top: 22px;
+  padding-bottom: 8px;
+  color: #d3455b;
+  display: flex;
+  text-align: center;
+}
+.iconHead {
+  font-size: 22px;
+}
+.textDriver {
+  font-size: 19px;
+  font-weight: 800;
+  margin-left: 12px;
+}
+.mainDriver {
+  padding-top: 12px;
+}
+.contentDapri {
+  color: #788896;
+  font-size: 15px;
+}
+.accountDriver {
+  margin-top: 4px;
+  color: #293845;
+  font-size: 15px;
+  font-weight: 600;
+  max-width: 360px;
+}
+.mainVehicle {
+  width: 375px;
+  padding-top: 12px;
+}
+.mainProfile {
+  padding-top: 12px;
+}
+.passAccountDriver {
+  font-weight: 600;
+  font-size: 16px;
+  color: #2c88d9;
+}
+.informationDriver {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.textSwitchDapri {
+  color: #293845;
+  font-size: 15px;
+  font-weight: 500;
+}
+.contentSwitch {
+  display: flex;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.buttonDone {
+  padding-bottom: 20px;
+}
+.ButtonCs {
+  border-radius: 6px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 330px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.ButtonLogout {
+  border-radius: 6px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 330px;
+  font-size: 16px;
+  font-weight: 500;
+  border-color: #d3455b;
+}

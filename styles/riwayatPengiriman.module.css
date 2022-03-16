@@ -1,0 +1,191 @@
+.head {
+  padding-top: 20px;
+  display: flex;
+  margin: 4px;
+}
+.ArrowBack {
+  color: #d3455b;
+  font-size: 18px;
+}
+.text {
+  color: #293845;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+.button {
+  display: flex;
+}
+.buttonHarian {
+  background-color: #d3455b;
+  color: #fff;
+  border-radius: 16px;
+  padding: 2px 4px;
+}
+.buttonBulan {
+  color: #4b5c6b;
+  border-radius: 16px;
+  margin-left: 10px;
+  padding: 2px 4px;
+  border: 10px;
+  border: 2px solid #bec4ca;
+}
+.dates {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.dates::after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-bottom: 2px solid #c3cfd9;
+  border-radius: 2px;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 34px;
+  margin-bottom: -13px;
+}
+
+.date {
+  margin: 5px;
+  margin-bottom: -5px;
+  width: 50px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #293845;
+}
+.date::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid #d00909;
+  border-radius: 2px;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 7px;
+  margin-bottom: -13px;
+}
+.iconDate {
+  margin-left: 6px;
+  margin-right: 5px;
+}
+
+.day {
+  margin-top: 30px;
+  font-weight: 800;
+  font-size: 16px;
+  color: #293845;
+  margin-bottom: 10px;
+}
+.status {
+  display: flex;
+  justify-content: space-between;
+}
+.size {
+  padding: 4px;
+}
+.deliveryComplete {
+  background-color: aquamarine;
+  width: 160px;
+  border: 2px solid #293845;
+}
+.notYetSent {
+  background-color: #d3455b;
+  width: 160px;
+  border: 2px solid #293845;
+}
+.titleShipping {
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: flex-start;
+  color: #4b5c6b;
+  margin-bottom: 8px;
+}
+.iconShipping {
+  font-size: 20px;
+  color: #0c2f4f;
+  margin-right: 6px;
+  color: #4b5c6b;
+}
+.subTitleShipping {
+  font-size: 13px;
+  color: #293845;
+}
+.textBold {
+  font-weight: bold;
+  font-size: 20px;
+  color: #293845;
+}
+
+.stores {
+  background-color: #dfe6ed;
+  margin-top: 20px;
+  margin-bottom: 14px;
+  border-radius: 12px;
+}
+.store {
+  padding: 14px 18px;
+}
+
+.headStore {
+  display: flex;
+  margin-bottom: 18px;
+}
+.storeInfo {
+  width: 80px;
+  background-color: #1aae9f;
+  border-radius: 16px;
+  color: #fff;
+  font-weight: 700;
+  margin-right: 8px;
+  padding: 2px 0;
+}
+.timesStore {
+  display: flex;
+  margin-top: 6px;
+}
+.timeStore {
+  margin: 0 4px;
+  font-weight: 600;
+  font-size: 13px;
+}
+.contentPart {
+  margin-bottom: 26px;
+}
+.ordered {
+  color: #8a98a6;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.price {
+  font-size: 20px;
+  color: #293845;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.market {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.iconStore {
+  font-size: 24px;
+  color: #4b5c6b;
+}
+.address {
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 3px;
+  color: #293845;
+  margin-left: 8px;
+  width: 280px;
+}
+.destination {
+  display: flex;
+}
+.iconLocationOn {
+  font-size: 24px;
+  color: #4b5c6b;
+}

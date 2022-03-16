@@ -1,0 +1,83 @@
+.head {
+  padding-top: 20px;
+  display: flex;
+  margin: 4px;
+}
+.ArrowBack {
+  color: #d3455b;
+  font-size: 18px;
+}
+.text {
+  color: #293845;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+.button {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.buttonKota {
+  background-color: #d3455b;
+  color: #fff;
+  border-radius: 16px;
+  padding: 2px 4px;
+}
+.buttonProvinsi {
+  color: #4b5c6b;
+  border-radius: 16px;
+  margin-left: 10px;
+  padding: 2px 4px;
+  border: 10px;
+  border: 2px solid #bec4ca;
+}
+.buttonGlobal {
+  color: #4b5c6b;
+  border-radius: 16px;
+  margin-left: 10px;
+  padding: 2px 4px;
+  border: 10px;
+  border: 2px solid #bec4ca;
+}
+.headcontentRank {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headingRank {
+  font-weight: 800;
+  font-size: 16px;
+}
+.iconSort {
+  color: #4b5c6b;
+  font-size: 26px;
+}
+.driverRank {
+  margin: 14px 0;
+  border: 2px solid #4b5c6b;
+}
+.contentRank {
+  margin: 10px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.leftRank {
+  display: flex;
+}
+.numberDriver {
+  margin-right: 10px;
+}
+.nameDriver {
+  font-size: 16px;
+}
+.pointDriver {
+  text-align: right;
+  color: #d3455b;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: right;
+}
