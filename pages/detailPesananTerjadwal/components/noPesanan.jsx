@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from 'styles/detailPesananTerjadwal.module.css';
 import { Button, Container } from '@material-ui/core';
-import { FileCopy } from '@material-ui/icons';
+import CopyExample from './CopyExample';
 
 const NoPesanan = () => {
   return (
@@ -54,8 +54,7 @@ const NoPesanan = () => {
             <div className={styles.partInfo}>
               <div className={styles.info}>No.Telp</div>
               <div className={styles.infoNoChanges}>
-                <input className="e-input" type="text" value="081 323 441 012" readOnly={true} />
-                <FileCopy className={styles.iconCopy} />
+                <CopyExample />
               </div>
             </div>
           </div>
