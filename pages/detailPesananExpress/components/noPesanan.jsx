@@ -54,7 +54,7 @@ const NoPesanan = () => {
             <div className={styles.partInfo}>
               <div className={styles.info}>No.Telp</div>
               <div className={styles.infoNoChanges}>
-                081 323 441 012 <FileCopy className={styles.iconCopy} />
+                <CopyExample />
               </div>
             </div>
           </div>

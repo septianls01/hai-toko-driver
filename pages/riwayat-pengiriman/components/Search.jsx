@@ -30,8 +30,7 @@ import TextField from '@mui/material/TextField';
 const Search = () => {
   return (
     <div className="main">
-      <h1>React Search</h1>
-      <div className="search">
+      <div style={{ paddingTop: '20px' }} className="search">
         <TextField id="outlined-basic" variant="outlined" fullWidth label="Search" />
       </div>
     </div>

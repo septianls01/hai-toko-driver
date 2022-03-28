@@ -1,3 +1,4 @@
+import { Link } from '@mui/material';
 import Box from '@mui/material/Box';
 import Image from 'next/image';
 import React from 'react';
@@ -16,7 +17,9 @@ const Account = () => {
           <div className={style.textPoint}>Poin Saya</div>
           <div className={style.Point}>
             <div className={style.numberPoint}>9.300</div>
-            <div className={style.leaderBoard}>Lihat Leaderboard</div>
+            <Link href="/leaderboard" style={{ textDecoration: 'none' }}>
+              <div className={style.leaderBoard}>Lihat Leaderboard</div>
+            </Link>
           </div>
         </div>
       </Box>

@@ -15,6 +15,7 @@
 }
 .button {
   display: flex;
+  margin-bottom: 18px;
 }
 .buttonHarian {
   color: #4b5c6b;
@@ -66,6 +67,7 @@
   padding-bottom: 7px;
   margin-bottom: -13px;
 }
+
 .iconDate {
   margin-left: 6px;
   margin-right: 5px;
@@ -79,6 +81,7 @@
   margin-bottom: 10px;
 }
 .status {
+  margin-top: 12px;
   display: flex;
   justify-content: space-between;
 }
@@ -88,12 +91,12 @@
 .deliveryComplete {
   background-color: aquamarine;
   width: 160px;
-  border: 2px solid #293845;
+  border-radius: 6px;
 }
 .notYetSent {
-  background-color: #d3455b;
+  background-color: #f08696;
   width: 160px;
-  border: 2px solid #293845;
+  border-radius: 6px;
 }
 .titleShipping {
   font-size: 14px;

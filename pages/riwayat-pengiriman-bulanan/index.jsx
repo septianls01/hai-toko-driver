@@ -1,12 +1,13 @@
-import React from "react";
-import Back from "./components/Back";
-import { Container } from "@material-ui/core";
-import Layout from "@components/layout";
-import ButtonDay from "./components/ButtonDay";
-import Date from "./components/Date";
-import Status from "./components/Status";
-import Merchant from "./components/Merchant";
-// import Search from './components/Search';
+import React from 'react';
+import Back from './components/Back';
+import { Container } from '@material-ui/core';
+import Layout from '@components/layout';
+import ButtonDay from './components/ButtonDay';
+// import Monthly from './components/Monthly';
+import Status from './components/Status';
+import Merchant from './components/Merchant';
+import Search from './components/Search';
+import Date from './components/Date';
 
 function index() {
   // const [isActive, setIsActive] = useState(true);
@@ -19,7 +20,7 @@ function index() {
           <Date />
           {/* {isActive ? <Status /> : <Date/>} */}
           <Status />
-          {/* <Search /> */}
+          <Search />
           <Merchant />
         </Container>
       </Layout>

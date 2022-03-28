@@ -6,16 +6,16 @@ import styles from 'styles/riwayatPengirimanBulanan.module.css';
 const ButtonDay = () => {
   return (
     <div className={styles.button}>
-      <a href="https://nextjs.org/learn/basics/navigate-between-pages/link-component">
-        <Button className={styles.buttonHarian} size="small" variant="outlined"  href="#contained-buttons">
-          Harian
-        </Button>
-      </a>
-      <a href="https://mui.com/components/material-icons/?query=locat">
-        <Button className={styles.buttonBulan} size="small"  variant="contained" href="#outlined-buttons">
-          Bulanan
-        </Button>
-      </a>
+      <Link href="/riwayat-pengiriman">
+        <a>
+          <Button className={styles.buttonHarian} size="small" variant="outlined">
+            Harian
+          </Button>
+        </a>
+      </Link>
+      <Button className={styles.buttonBulan} size="small" variant="contained" href="#outlined-buttons">
+        Bulanan
+      </Button>
     </div>
   );
 };

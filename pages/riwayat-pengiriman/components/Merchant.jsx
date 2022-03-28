@@ -25,7 +25,7 @@ const Merchant = () => {
           <div className={styles.location}>
             <div className={styles.market}>
               <Store className={styles.iconStore} />
-              <div className={styles.address}>Tk. Sembako Sejahtera Tlogosasri Raya...</div>
+              <div className={styles.address}>Tk. Sembako Sejahtera Tlogosasri Raya</div>
             </div>
             <div className={styles.destination}>
               <LocationOn className={styles.iconLocationOn} />
@@ -52,7 +52,7 @@ const Merchant = () => {
           <div className={styles.location}>
             <div className={styles.market}>
               <Store className={styles.iconStore} />
-              <div className={styles.address}>Tk. Sembako Sejahtera Tlogosasri Raya...</div>
+              <div className={styles.address}>Tk. aman jaya</div>
             </div>
             <div className={styles.destination}>
               <LocationOn className={styles.iconLocationOn} />
@@ -79,7 +79,7 @@ const Merchant = () => {
           <div className={styles.location}>
             <div className={styles.market}>
               <Store className={styles.iconStore} />
-              <div className={styles.address}>Tk. Sembako Sejahtera Tlogosasri Raya...</div>
+              <div className={styles.address}>Tk. jaya abadi rahmat sukses</div>
             </div>
             <div className={styles.destination}>
               <LocationOn className={styles.iconLocationOn} />

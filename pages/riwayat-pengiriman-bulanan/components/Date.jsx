@@ -17,7 +17,7 @@ const Date = () => {
           </div>
         </div>
       </center>
-      <div className={styles.day}>Senin, 17 Sep 2021</div>
+      <div className={styles.day}> Sep 2021</div>
     </div>
   );
 };

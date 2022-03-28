@@ -85,7 +85,7 @@
 }
 .market {
   display: flex;
-  margin-bottom: 8px;
+  margin-bottom: 14px;
 }
 
 .iconStore {
@@ -110,7 +110,7 @@
   color: #4b5c6b;
 }
 .Maps {
-  margin-top: 10px;
+  margin-top: 6px;
   font-weight: 600;
   color: #2c88d9;
 }
@@ -197,4 +197,6 @@
   width: 550px;
   font-size: 20px;
   font-weight: 500;
+  cursor: pointer;
+  border: none;
 }

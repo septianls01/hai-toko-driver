@@ -1,0 +1,21 @@
+.icon {
+  font-size: 30px;
+  color: gray;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 600;
+}
+.icons {
+  display: flex;
+  align-items: center;
+}

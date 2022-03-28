@@ -1,0 +1,76 @@
+.image {
+  max-height: 18px;
+  margin-right: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #dfe6ed;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.brand {
+  color: #d3455b;
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 8px;
+}
+
+.title {
+  font-size: 20px;
+  color: gray;
+  padding-top: 3px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.iconHistory {
+  font-size: 30px;
+  color: gray;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.icon {
+  font-size: 30px;
+  color: gray;
+  cursor: pointer;
+}
+
+.icon1 {
+  font-size: 25px;
+  color: gray;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.spirit {
+  color: gray;
+}
+
+.circle {
+  height: 100px;
+}
+
+.content {
+  width: 50%;
+  align-items: center;
+}

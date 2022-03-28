@@ -24,6 +24,7 @@
 }
 .buttonBulan {
   color: #4b5c6b;
+  text-decoration: none;
   border-radius: 16px;
   margin-left: 10px;
   padding: 2px 4px;
@@ -35,7 +36,7 @@
   display: flex;
   justify-content: center;
 }
-.dates::after {
+/* .dates::after {
   content: '';
   display: block;
   position: absolute;
@@ -45,7 +46,7 @@
   margin: auto;
   padding-bottom: 34px;
   margin-bottom: -13px;
-}
+} */
 
 .date {
   margin: 5px;
@@ -77,6 +78,9 @@
   color: #293845;
   margin-bottom: 10px;
 }
+.stores {
+  text-decoration: none;
+}
 .status {
   display: flex;
   justify-content: space-between;
@@ -87,12 +91,12 @@
 .deliveryComplete {
   background-color: aquamarine;
   width: 160px;
-  border: 2px solid #293845;
+  border-radius: 6px;
 }
 .notYetSent {
-  background-color: #d3455b;
+  background-color: #f08696;
   width: 160px;
-  border: 2px solid #293845;
+  border-radius: 6px;
 }
 .titleShipping {
   font-size: 14px;
@@ -149,6 +153,7 @@
   margin: 0 4px;
   font-weight: 600;
   font-size: 13px;
+  color: #293845;
 }
 .contentPart {
   margin-bottom: 26px;
