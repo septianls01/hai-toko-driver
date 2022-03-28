@@ -1,6 +1,3 @@
-import { SearchOutlined } from '@material-ui/icons';
-import { FilterAlt } from '@mui/icons-material';
-import Link from 'next/link';
 import React from 'react';
 import styles from 'styles/DashboardItem.module.css';
 

@@ -1,9 +1,8 @@
 import Upload from '@components/Upload/Index';
 import { FormControl, InputLabel, MenuItem, Select, Switch, Typography } from '@material-ui/core';
-import { TwoWheeler, Notifications } from '@material-ui/icons';
+import { TwoWheeler, Notifications, CloudUpload } from '@material-ui/icons';
 import { makeStyles } from '@material-ui/styles';
-import { FileUpload } from '@mui/icons-material';
-import { TextField } from '@mui/material';
+// import { TextField } from '@mui/material';
 import React, { useState } from 'react';
 import ItemsDomisili from './ItemsDomisili';
 
@@ -118,7 +117,7 @@ const Domisili = () => {
         </FormControl>
       </div>
       <div className={classes.motorcycle}>
-        <FileUpload className={classes.iconT} />
+        <CloudUpload className={classes.iconT} />
         <p className={classes.text}>Kredential</p>
       </div>
       <p className={classes.textFormat}>Format file jpg & maksimal 2MB</p>
