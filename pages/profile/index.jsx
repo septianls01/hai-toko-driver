@@ -7,6 +7,7 @@ import ButtonProfile from './components/ButtonProfile';
 
 import DataDriver from './components/DataDriver';
 import DriverProfile from './components/DriverProfile';
+import Notification from './components/Notification';
 import Remember from './components/Remember';
 
 import Vehicle from './components/vehicle';
@@ -23,6 +24,7 @@ function index() {
           <DriverProfile />
           <Remember />
           <ButtonProfile />
+          <Notification />
         </Container>
       </Layout>
     </div>
