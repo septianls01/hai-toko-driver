@@ -5,7 +5,7 @@ import Layout from '@components/layout';
 import NoPesanan from './components/noPesanan';
 import Place from './components/Place';
 import Order from './components/Order';
-import Btndone from './components/Btndone';
+import AlertDialogSlide from './components/AlertDialogSlide';
 
 // import Search from './components/Search';
 
@@ -21,7 +21,7 @@ function index() {
         <Container>
           <Place />
           <Order />
-          <Btndone />
+          <AlertDialogSlide />
         </Container>
       </Layout>
     </div>

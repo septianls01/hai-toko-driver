@@ -17,7 +17,7 @@ const ColorButton = styled(Button)(({ theme }) => ({
   margin: '30px 0 16px 0',
   color: '#fff',
   fontSize: '16px',
-  width: '450px',
+  width: '100%',
   padding: '8px 0',
   '&:hover': {
     backgroundColor: '#1aae9f;',
@@ -42,13 +42,11 @@ export default function ButtonSave() {
   return (
     <center>
       <div className="contentButton">
-        <Stack spacing={2} direction="row">
-          <Link style={{ textDecoration: 'none' }} href="/dashboardUnverified">
-            <ColorButton style={{ textAlign: 'center' }} variant="contained">
-              Simpan
-            </ColorButton>
-          </Link>
-        </Stack>
+        <Link style={{ textDecoration: 'none' }} href="/dashboardUnverified">
+          <ColorButton style={{ textAlign: 'center' }} variant="contained">
+            Simpan
+          </ColorButton>
+        </Link>
       </div>
     </center>
   );

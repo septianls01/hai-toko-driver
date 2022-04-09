@@ -2,6 +2,7 @@ import React from 'react';
 import styles from 'styles/detailPesananExpress.module.css';
 import { Button, Container } from '@material-ui/core';
 import { FileCopy } from '@material-ui/icons';
+import CopyExample from './CopyExample';
 
 const NoPesanan = () => {
   return (
