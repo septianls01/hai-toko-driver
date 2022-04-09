@@ -1,9 +1,8 @@
 import Upload from '@components/Upload/Index';
 import { FormControl, InputLabel, MenuItem, Select, Switch, Typography } from '@material-ui/core';
-import { TwoWheeler, Notifications } from '@material-ui/icons';
+import { TwoWheeler, Notifications, CloudUpload } from '@material-ui/icons';
 import { makeStyles } from '@material-ui/styles';
-import { FileUpload } from '@mui/icons-material';
-import { TextField } from '@mui/material';
+// import { TextField } from '@mui/material';
 import React, { useState } from 'react';
 import ItemsDomisili from './ItemsDomisili';
 

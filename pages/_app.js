@@ -32,11 +32,11 @@ export default function MyApp(props) {
       user = localStorage.getItem('user');
     }
 
-    if (user === null) {
-      router.push('/dashboardSearch');
-    } else {
-      router.push(router.pathname);
-    }
+    // if (user === null) {
+    //   router.push('/profileMerchant');
+    // } else {
+    //   router.push(router.pathname);
+    // }
   };
 
   useEffect(() => {

@@ -1,6 +1,5 @@
-import { KeyboardBackspace } from '@material-ui/icons';
+import { AssignmentInd, KeyboardBackspace } from '@material-ui/icons';
 import { makeStyles } from '@material-ui/styles';
-import { Badge } from '@mui/icons-material';
 import { Link } from '@mui/material';
 import React from 'react';
 
@@ -45,16 +44,16 @@ const Pendaftaran = () => {
   return (
     <>
       <div className={classes.header}>
-        <Link href="/login">
-          <div className={classes.icon}>
+        <div className={classes.icon}>
+          <Link href="/dashboardPending">
             <KeyboardBackspace className={classes.iconK} />
-          </div>
-        </Link>
+          </Link>
+        </div>
         <p className={classes.p}>Formulir Pendaftaran</p>
       </div>
       <div className={classes.bioData}>
-        <div className={classes.iconBio}>
-          <Badge className={classes.iconB} />
+        <div style={{ display: 'flex', alignItems: 'center' }} className={classes.iconBio}>
+          <AssignmentInd style={{ fontSize: '30px' }} className={classes.iconB} />
         </div>
         <p className={classes.text}>Biodata</p>
       </div>

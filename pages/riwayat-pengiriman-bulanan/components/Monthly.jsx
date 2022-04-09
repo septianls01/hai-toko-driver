@@ -10,7 +10,7 @@ export default function Monthly() {
   return (
     <center>
       <LocalizationProvider dateAdapter={AdapterDateFns}>
-        <DatePicker views={['year', 'month']} label="Bulan pesanan" minDate={new Date('2012-03-01')} maxDate={new Date('2023-06-01')} value={value} onChange={setValue} renderInput={(params) => <TextField {...params} helperText={null} />} />
+        <DatePicker views={['year', 'month']} label="Bulan pesanan" minDate={new Date('2012-03-01')} maxDate={new Date('2022-04-09')} value={value} onChange={setValue} renderInput={(params) => <TextField {...params} helperText={null} />} />
       </LocalizationProvider>
     </center>
   );

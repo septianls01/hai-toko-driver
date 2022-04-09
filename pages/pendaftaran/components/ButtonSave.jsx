@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { styled } from '@mui/material/styles';
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
+import { Link } from '@mui/material';
 
 // const style = makeStyles(() => ({
 //   textFormat: {
@@ -11,6 +12,8 @@ import Stack from '@mui/material/Stack';
 const ColorButton = styled(Button)(({ theme }) => ({
   color: theme.palette.getContrastText('#1aae9f;'),
   backgroundColor: '#1aae9f;',
+  display: 'flex',
+  justifyContent: 'center',
   margin: '30px 0 16px 0',
   color: '#fff',
   fontSize: '16px',
@@ -37,8 +40,14 @@ const ColorButton = styled(Button)(({ theme }) => ({
 
 export default function ButtonSave() {
   return (
-    <Stack spacing={2} direction="row">
-      <ColorButton variant="contained">Simpan</ColorButton>
-    </Stack>
+    <center>
+      <div className="contentButton">
+        <Link style={{ textDecoration: 'none' }}>
+          <ColorButton style={{ textAlign: 'center' }} variant="contained">
+            Simpan
+          </ColorButton>
+        </Link>
+      </div>
+    </center>
   );
 }
