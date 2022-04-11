@@ -1,7 +1,7 @@
 import React from 'react';
 import style from 'styles/profile.module.css';
 import { TwoWheeler } from '@material-ui/icons';
-// import { Grid } from '@mui/material';
+import { Grid } from '@mui/material';
 
 const Vehicle = () => {
   return (
@@ -12,14 +12,14 @@ const Vehicle = () => {
       </div>
       <div className={style.mainVehicle}>
         <div className={style.twoPart}>
-          <div className={style.onePart}>
+          <Grid xs={4} className={style.onePart}>
             <div className={style.contentDapri}>Merk</div>
             <div className={style.accountDriver}>Honda Beat</div>
-          </div>
-          <div className={style.onePart}>
+          </Grid>
+          <Grid xs={4} className={style.onePart}>
             <div className={style.contentDapri}>Nomor Kendaraan</div>
             <div className={style.accountDriver}>K 302KQ</div>
-          </div>
+          </Grid>
         </div>
       </div>
     </div>
