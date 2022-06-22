@@ -7,15 +7,15 @@ function UploadFile() {
   return (
     <>
       <div
-        style={{
-          border: '1px solid gray',
-          maxWidth: '55vw',
-          padding: '5px 5px 5px 5px',
-          backgroundColor: '#833ae3',
-          borderRadius: '100px',
-        }}
+      // style={{
+      //   border: '1px solid gray',
+      //   maxWidth: '55vw',
+      //   padding: '5px 5px 5px 5px',
+      //   backgroundColor: '#833ae3',
+      //   borderRadius: '100px',
+      // }}
       >
-        <label>Upload KTP</label>
+        {/* <label>Upload KTP</label> */}
         <div style={{}}>
           <input type="file" accept="image/*" />
         </div>

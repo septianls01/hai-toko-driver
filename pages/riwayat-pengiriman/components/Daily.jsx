@@ -9,14 +9,15 @@ export default function Daily() {
 
   return (
     <LocalizationProvider dateAdapter={AdapterDateFns}>
-      <DatePicker
+      <DatePicker views={['year', 'month', 'day']} label="Tanggal Pesanan" maxDate={new Date('2022-07-10')} value={value} onChange={setValue} renderInput={(params) => <TextField {...params} helperText={null} />} />
+      {/* <DatePicker
         label="Tanggal Pesanan"
         value={value}
         onChange={(newValue) => {
           setValue(newValue);
         }}
         renderInput={(params) => <TextField {...params} helperText={params?.inputProps?.placeholder} />}
-      />
+      /> */}
     </LocalizationProvider>
   );
 }

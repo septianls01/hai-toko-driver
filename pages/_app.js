@@ -33,7 +33,7 @@ export default function MyApp(props) {
     }
 
     // if (user === null) {
-    //   router.push('/profileMerchant');
+    //   router.push('/profile');
     // } else {
     //   router.push(router.pathname);
     // }
