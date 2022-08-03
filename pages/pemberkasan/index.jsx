@@ -6,6 +6,7 @@ import Biodata from './components/Biodata';
 import ButtonSave from './components/ButtonSave';
 import Domisili from './components/Domisili';
 import Pendaftaran from './components/Pendaftaran';
+import UploadButtons from './components/UploadButtons';
 import UploadFile from './components/UploadFile';
 
 const index = () => {
@@ -16,6 +17,8 @@ const index = () => {
         <Biodata />
         <Domisili />
         <UploadFile />
+        {/* <UploadButtons /> */}
+
         <ButtonSave />
       </Container>
     </Layout>

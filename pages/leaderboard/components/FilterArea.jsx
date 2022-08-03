@@ -3,21 +3,30 @@ import React from 'react';
 import styles from 'styles/leaderboard.module.css';
 
 const FilterArea = () => {
+  var buttons = $('Button');
+  buttons.click(function () {
+    buttons.css('background-color', 'snow');
+    $(this).css('background-color', 'pink');
+  });
   return (
     <div>
       <div className={styles.button}>
-        <Button className={styles.buttonKota} size="small" variant="contained" href="#contained-buttons">
+        <Button size="small" variant="contained" href="#contained-buttons">
           Kota
         </Button>
-        <Button className={styles.buttonProvinsi} size="small" variant="outlined" href="#outlined-buttons">
+        <Button size="small" variant="outlined" href="#outlined-buttons">
           Provinsi
         </Button>
-        <Button className={styles.buttonGlobal} size="small" variant="outlined" href="#outlined-buttons">
+        <Button size="small" variant="outlined" href="#outlined-buttons">
           Global
         </Button>
       </div>
     </div>
   );
 };
+
+// className={styles.buttonKota}
+// className={styles.buttonProvinsi}
+// className={styles.buttonGlobal}
 
 export default FilterArea;

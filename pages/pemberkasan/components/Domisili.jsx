@@ -53,6 +53,7 @@ const style = makeStyles(() => ({
   },
   textFormat: {
     color: 'gray',
+    marginBottom: '30px',
   },
 }));
 

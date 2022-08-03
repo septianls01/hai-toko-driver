@@ -81,3 +81,11 @@
   font-size: 16px;
   text-align: right;
 }
+#Button:hover {
+  background-color: pink !important;
+  opacity: 0.5;
+}
+
+#Button:focus {
+  background-color: pink;
+}

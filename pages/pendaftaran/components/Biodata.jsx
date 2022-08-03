@@ -28,7 +28,29 @@ const style = makeStyles(() => ({
     fontSize: 16,
   },
 }));
-const Biodata = () => {
+
+//axios
+// export const getStaticProps = async () => {
+//   const res = await fetch('http://127.0.0.1:8000/api/provinces');
+//   const data = await res.json();
+
+//   return {
+//     props: { biodata: data },
+//   };
+// };
+
+export const getStaticProps = async () => {
+  const res = await fetch('http://127.0.0.1:8000/api/provinces');
+  const data = await res.json();
+
+  return {
+    props: {
+      data,
+    },
+  };
+};
+
+const Biodata = ({ data }) => {
   const classes = style();
 
   const [state, setState] = React.useState({
@@ -90,7 +112,20 @@ const Biodata = () => {
             <InputLabel className={classes.inputLabel} id="demo-simple-select-label">
               Provinsi
             </InputLabel>
-            <Select disableUnderline="true" className={classes.selectInput} labelId="provinsi" id="demo-simple-select" value={state.provinsi} name="provinsi" label="provinsi" onChange={handleChange}>
+            {data.map((curElem) => {
+              return (
+                <div key={curElem.id}>
+                  <h3>{curElem.id}</h3>
+                  <h2>{curElem.name}</h2>
+                </div>
+              );
+            })}
+            {/* {biodata.map((bio) => (
+              <Select key={bio.id} disableUnderline="true" className={classes.selectInput} labelId="provinsi" id="demo-simple-select" value={state.provinsi} name="provinsi" label="provinsi" onChange={handleChange}>
+                <MenuItem> {bio.name} </MenuItem>
+              </Select>
+            ))} */}
+            {/* <Select disableUnderline="true" className={classes.selectInput} labelId="provinsi" id="demo-simple-select" value={state.provinsi} name="provinsi" label="provinsi" onChange={handleChange}>
               <MenuItem value={10}>Nanggroe Aceh Darussalam</MenuItem>
               <MenuItem value={20}>Sumatera Barat</MenuItem>
               <MenuItem value={30}>Sumatera Utara</MenuItem>
@@ -125,7 +160,7 @@ const Biodata = () => {
               <MenuItem value={320}>Maluku Utara</MenuItem>
               <MenuItem value={330}>Papua</MenuItem>
               <MenuItem value={340}>Papua Barat</MenuItem>
-            </Select>
+            </Select> */}
           </FormControl>
         </div>
         <Typography className={classes.typo}>Kota / Kabupaten KTP*</Typography>
