@@ -80,6 +80,10 @@ const Domisili = () => {
 
   return (
     <>
+      <Typography className={classes.typo}>Kode Pos KTP</Typography>
+      <div className={classes.inputName}>
+        <input className={classes.input} placeholder="Kode Pos" type="number" />
+      </div>
       <div className={classes.content}>
         <Typography className={classes.switchContent}>
           Alamat domisili sama dengan alamat KTP
