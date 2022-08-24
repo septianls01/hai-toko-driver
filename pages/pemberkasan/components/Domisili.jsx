@@ -81,7 +81,7 @@ const Domisili = () => {
 
   return (
     <>
-      <div className={classes.content}>
+      {/* <div className={classes.content}>
         <Typography className={classes.switchContent}>
           Alamat domisili sama dengan alamat KTP
           <Switch onClick={toogler} />
@@ -91,7 +91,7 @@ const Domisili = () => {
             </span>
           ) : null}
         </Typography>
-      </div>
+      </div> */}
       <div className={classes.motorcycle}>
         <TwoWheeler className={classes.iconT} />
         <p className={classes.text}>Kendaraan</p>

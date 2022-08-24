@@ -6,7 +6,7 @@ import { Link } from '@mui/material';
 const Back = () => {
   return (
     <div className={styles.head}>
-      <Link href="/dashboardempty">
+      <Link href="/dashboardSearch">
         <a>
           <div className={styles.ArrowBack}>
             <ArrowBack />

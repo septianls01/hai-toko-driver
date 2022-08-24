@@ -161,7 +161,7 @@ const Component = (props) => {
             <Box style={{ display: 'flex' }}>
               <Typography>Belum punya akun?</Typography>
               <Box style={{ flex: 1 }}>
-                <Link href="/pendaftar">
+                <Link href="/pendaftaran">
                   <Typography className={classes.link} style={{ marginLeft: 10 }}>
                     Daftar disini
                   </Typography>

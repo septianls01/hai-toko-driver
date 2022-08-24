@@ -14,12 +14,11 @@ const Account = () => {
       </center>
       <Box className={style.boxPoint}>
         <div className={style.contentPoint}>
-          <div className={style.textPoint}>Poin Saya</div>
           <div className={style.Point}>
+            <div className={style.textPoint}>Poin Saya</div>
             <div className={style.numberPoint}>9.300</div>
-            <Link href="/leaderboard" style={{ textDecoration: 'none' }}>
-              <div className={style.leaderBoard}>Lihat Leaderboard</div>
-            </Link>
+            <div className={style.textPoint}>Pengahasilan hari Ini</div>
+            <div className={style.numberPoint}>9.300</div>
           </div>
         </div>
       </Box>

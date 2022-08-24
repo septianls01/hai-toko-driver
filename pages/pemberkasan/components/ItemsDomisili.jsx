@@ -1,29 +1,23 @@
-import {
-  FormControl,
-  InputLabel,
-  MenuItem,
-  Select,
-  Typography,
-} from "@material-ui/core";
-import { makeStyles } from "@material-ui/styles";
-import React from "react";
+import { FormControl, InputLabel, MenuItem, Select, Typography } from '@material-ui/core';
+import { makeStyles } from '@material-ui/styles';
+import React from 'react';
 
 const style = makeStyles(() => ({
   typo: {
-    padding: "10px 0px",
-    fontWeight: "bold",
+    padding: '10px 0px',
+    fontWeight: 'bold',
   },
   inputSelect: {
     height: 35,
-    width: "100%",
+    width: '100%',
   },
   input: {
     height: 35,
-    width: "100%",
+    width: '100%',
   },
   selectInput: {
     paddingLeft: 5,
-    border: "1px solid #767676",
+    border: '1px solid #767676',
   },
   inputLabel: {
     paddingLeft: 5,
@@ -35,10 +29,10 @@ const ItemsDomisili = () => {
   const classes = style();
 
   const [state, setState] = React.useState({
-    provinsi: "provinsi",
-    kota: "kota",
-    kecamatan: "kecamatan",
-    kelurahan: "kelurahan",
+    provinsi: 'provinsi',
+    kota: 'kota',
+    kecamatan: 'kecamatan',
+    kelurahan: 'kelurahan',
   });
 
   function handleChange(evt) {
@@ -50,7 +44,7 @@ const ItemsDomisili = () => {
   }
   return (
     <>
-      <Typography className={classes.typo}>Alamat Tinggal*</Typography>
+      {/* <Typography className={classes.typo}>Alamat Tinggal*</Typography>
       <div className={classes.inputName}>
         <input className={classes.input} placeholder="Alamat" type="text" />
       </div>
@@ -105,7 +99,7 @@ const ItemsDomisili = () => {
             <MenuItem value={30}>Bandung</MenuItem>
           </Select>
         </FormControl>
-      </div>
+      </div> */}
       <Typography className={classes.typo}>Kode Pos KTP</Typography>
       <div className={classes.inputName}>
         <input className={classes.input} placeholder="Kode Pos" type="number" />

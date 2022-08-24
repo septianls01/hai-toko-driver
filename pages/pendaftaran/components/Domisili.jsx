@@ -80,7 +80,7 @@ const Domisili = () => {
 
   return (
     <>
-      <Typography className={classes.typo}>Kode Pos KTP</Typography>
+      {/* <Typography className={classes.typo}>Kode Pos KTP</Typography>
       <div className={classes.inputName}>
         <input className={classes.input} placeholder="Kode Pos" type="number" />
       </div>
@@ -94,7 +94,7 @@ const Domisili = () => {
             </span>
           ) : null}
         </Typography>
-      </div>
+      </div> */}
       <div className={classes.motorcycle}>
         <TwoWheeler className={classes.iconT} />
         <p className={classes.text}>Kendaraan</p>
@@ -110,9 +110,6 @@ const Domisili = () => {
       <Typography className={classes.typo}>Informasi ini di dapat dari?</Typography>
       <div className={classes.inputName}>
         <FormControl fullWidth>
-          <InputLabel className={classes.inputLabel} id="demo-simple-select-label">
-            Info
-          </InputLabel>
           <Select disableUnderline="true" className={classes.selectInput} labelId="info" id="demo-simple-select" value={state.info} name="info" label="info" onChange={handleChange}>
             <MenuItem value={1}>Facebook</MenuItem>
             <MenuItem value={2}>Instagram</MenuItem>

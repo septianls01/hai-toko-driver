@@ -44,7 +44,7 @@ const ItemsDomisili = () => {
   }
   return (
     <>
-      <Typography className={classes.typo}>Alamat Tinggal*</Typography>
+      {/* <Typography className={classes.typo}>Alamat Tinggal*</Typography>
       <div className={classes.inputName}>
         <input className={classes.input} placeholder="Alamat" type="text" />
       </div>
@@ -73,7 +73,7 @@ const ItemsDomisili = () => {
             <MenuItem value={30}>Bandung</MenuItem>
           </Select>
         </FormControl>
-      </div>
+      </div> */}
       <Typography className={classes.typo}>Kode Pos KTP</Typography>
       <div className={classes.inputName}>
         <input className={classes.input} placeholder="Kode Pos" type="number" />
